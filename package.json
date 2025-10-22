@@ -1,11 +1,13 @@
 {
     "name": "vivekjha-portfolio",
     "version": "1.0.0",
-    "homepage": "https://vivekjha1213.github.io",
+    "homepage": "https://vivekjha1213.github.io/vivekjha-portfolio",
     "private": true,
     "dependencies": {
+      "lucide-react": "^0.546.0",
       "react": "^18.2.0",
-      "react-dom": "^18.2.0"
+      "react-dom": "^18.2.0",
+      "react-scripts": "5.0.1"
     },
     "scripts": {
       "start": "react-scripts start",
@@ -14,14 +16,24 @@
       "deploy": "gh-pages -d build"
     },
     "devDependencies": {
-      "react-scripts": "5.0.1",
       "gh-pages": "^5.0.0"
     },
     "eslintConfig": {
-      "extends": ["react-app"]
+      "extends": [
+        "react-app"
+      ]
     },
     "browserslist": {
-      "production": [">0.2%", "not dead", "not op_mini all"],
-      "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
     }
   }
+  
